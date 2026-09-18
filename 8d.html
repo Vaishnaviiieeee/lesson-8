@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exercise 8d</title>
+    <style>
+        .form {
+            width: 320px;
+            font-family: Arial, sans-serif;
+        }
+        input[type="text"], input[type="email"] {
+            display: inline-block;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin-bottom: 8px;
+            box-sizing: border-box;
+        }
+        .name-row input {
+            width: 48%;
+        }
+        .name-row input:first-child {
+            margin-right: 4%;
+        }
+        input[type="email"] {
+            display: block;
+            width: 100%;
+        }
+        button {
+            display: block;
+            width: 100%;
+            padding: 12px;
+            background-color: #3b5fe2;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="form">
+        <div class="name-row">
+            <input type="text" placeholder="First name">
+            <input type="text" placeholder="First name">
+        </div>
+        <input type="email" placeholder="Email">
+        <button>Sign Up</button>
+    </div>
+</body>
+</html>
