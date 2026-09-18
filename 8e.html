@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exercise 8e</title>
+    <style>
+        .card {
+            width: 320px;
+            background: black;
+            color: white;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+        }
+        h2 {
+            margin: 0 0 15px 0;
+            font-size: 24px;
+        }
+        input {
+            display: block;
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 8px;
+            border: none;
+            background-color: #2f2f2f;
+            color: #ccc;
+            box-sizing: border-box;
+        }
+        .buttons {
+            display: flex;
+            gap: 8px;
+            margin-top: 10px;
+        }
+        .buttons button {
+            flex: 1;
+            padding: 12px;
+            border: none;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .request-now {
+            background-color: white;
+            color: black;
+        }
+        .schedule {
+            background-color: #2f2f2f;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h2>Request a ride now</h2>
+        <input type="text" placeholder="Enter pickup location">
+        <input type="text" placeholder="Enter destination">
+        <div class="buttons">
+            <button class="request-now">Request now</button>
+            <button class="schedule">Schedule for later</button>
+        </div>
+    </div>
+</body>
+</html>
